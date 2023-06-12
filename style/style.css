@@ -224,7 +224,7 @@ header .main-nav ul a:hover::after {
     display: flex;
     flex-direction: column;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: #ececec;
     bottom: -304px;
     left: 50%;
     width: 100%;
