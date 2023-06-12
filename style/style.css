@@ -295,16 +295,18 @@ header .main-nav ul a:hover::after {
   overflow: hidden;
   white-space: nowrap;
   border-right: 5px solid var(--main-color);
-  animation: typing 2.5s steps(14) forwards, typing-two 0.6s infinite;
-  -webkit-animation: typing 2.5s steps(14) forwards, typing-two 0.6s infinite;
+  animation: typing 3s steps(29) forwards, typing-two 0.6s infinite;
+  -webkit-animation: typing 3s steps(29) forwards, typing-two 0.6s infinite;
 }
 @media (max-width: 532px) {
   .landing .text h1 {
     animation: none;
     -webkit-animation: none;
     width: 100%;
-    white-space: pre-wrap;border: none;
-}}
+    white-space: pre-wrap;
+    border: none;
+  }
+}
 .landing .text h1 span {
   color: var(--main-color);
 }
@@ -611,8 +613,8 @@ header .main-nav ul a:hover::after {
   position: relative;
   z-index: 1;
   padding-bottom: 40px;
-  animation:background-change 10s infinite;
-  -webkit-animation:background-change 10s infinite;
+  animation: background-change 10s infinite;
+  -webkit-animation: background-change 10s infinite;
 }
 .contact .image::before {
   content: "";
@@ -624,12 +626,12 @@ header .main-nav ul a:hover::after {
   background-color: rgba(23, 135, 224, 0.9);
   z-index: -1;
 }
-@media (max-width:991px) {
-  .contact .image{
+@media (max-width: 991px) {
+  .contact .image {
     flex-basis: 100%;
   }
 }
-.contact .image i{
+.contact .image i {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -638,7 +640,7 @@ header .main-nav ul a:hover::after {
   height: 50px;
   margin-right: 10px;
   border-radius: 50%;
-  background-color:#cccccc35;
+  background-color: #cccccc35;
   color: #00000092;
   font-size: 20px;
   transition: var(--main-transition);
@@ -652,10 +654,11 @@ header .main-nav ul a:hover::after {
   -o-border-radius: 50%;
 }
 
-.contact .facebook:hover{
+.contact .facebook:hover {
   background-color: #1877f2;
-}.contact .whatsapp:hover{
-  background-color:#25d366 ;
+}
+.contact .whatsapp:hover {
+  background-color: #25d366;
 }
 .contact .form {
   display: flex;
@@ -664,14 +667,14 @@ header .main-nav ul a:hover::after {
   flex-basis: 50%;
   background-color: #ececec;
 }
-@media (max-width:991px) {
-  .contact .form{
+@media (max-width: 991px) {
+  .contact .form {
     flex-basis: 100%;
   }
 }
-.contact .form .content{
+.contact .form .content {
   min-width: 60%;
-max-width: 80%;
+  max-width: 80%;
 }
 
 .contact .input {
@@ -722,26 +725,26 @@ max-width: 80%;
   padding-bottom: 40px;
   padding-top: 40px;
 }
-.contact .content p{
-line-height: 1.6;
-font-size: 20px;
-max-width: 500px;
-padding-bottom: 40px;
+.contact .content p {
+  line-height: 1.6;
+  font-size: 20px;
+  max-width: 500px;
+  padding-bottom: 40px;
 }
 /* start footer */
-.footer{
+.footer {
   width: 100%;
   text-align: center;
   height: 50px;
   background-color: #191919;
   border-top: 1px solid #555;
-    padding-top:15px ;
+  padding-top: 15px;
 }
-.footer p{
+.footer p {
   color: white;
   font-size: 18px;
 }
-.footer a{
+.footer a {
   color: var(--main-color);
   text-decoration: none;
   font-weight: 600;
@@ -857,14 +860,14 @@ padding-bottom: 40px;
   }
 }
 @keyframes background-change {
-  0%, 100% {
+  0%,
+  100% {
     background-image: url(../images/contact2.jpg);
   }
-  50%{
+  50% {
     background-image: url(../images/contact3.jpg);
   }
 }
-
 
 /* end-aimation */
 /* start gpt */
