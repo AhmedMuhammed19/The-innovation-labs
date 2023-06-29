@@ -496,14 +496,13 @@ ul.small .flip {
   background-color: #ececec;
 }
 
-.team .row-1 {
+.team .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
 }
-.team .row-2 {
-}
+
 
 .team .box {
   position: relative;
@@ -522,7 +521,7 @@ ul.small .flip {
     0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
 }
 @media (max-width: 1000px) {
-  .team .row-1 {
+  .team .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
