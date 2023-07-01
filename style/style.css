@@ -453,11 +453,11 @@ ul.small .flip {
   padding-bottom: 20px;
   letter-spacing: 1.6px;
 }
-.Labs.box .content p {
+.Labs .box .content p {
   color: var(--p-color);
-  font-size: 15px;
+  font-size: 16px;
+  letter-spacing: 1.5px;
   line-height: 1.6;
-  letter-spacing: 1px;
 }
 .Labs .box .content .button {
   margin: 20px auto 0;
@@ -502,7 +502,6 @@ ul.small .flip {
   justify-content: center;
   gap: 25px;
 }
-
 
 .team .box {
   position: relative;
@@ -631,6 +630,9 @@ ul.small .flip {
   .about .container {
     flex-direction: column-reverse;
     gap: 50px;
+  }
+  .about p {
+    text-align: center;
   }
 }
 .about .txt {
