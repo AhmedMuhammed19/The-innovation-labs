@@ -24,3 +24,15 @@ window.addEventListener("scroll", () => {
   const scrollTop = document.documentElement.scrollTop;
   el.style.width = `${(scrollTop / height) * 100}%`;
 });
+let togglebtn = document.querySelector(".menu-bar");
+let links = document.querySelector("ul.small");
+
+togglebtn.onclick = function (e) {
+  e.stopPropagation();
+  this.classList.toggle("menu-bar-active");
+  links.classList.toggle("open");
+};
+links.onclick = function (e) {
+  e.stopPropagation();
+};
+
